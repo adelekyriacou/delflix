@@ -1,0 +1,16 @@
+{
+  "name": "delflix",
+  "version": "1.0.0",
+  "description": "Netflix clone",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "sass": "sass --watch src/all.scss public/all.css"
+  },
+  "keywords": [],
+  "author": "Adele",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
