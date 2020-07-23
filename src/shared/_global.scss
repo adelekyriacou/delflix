@@ -1,4 +1,5 @@
 $primary-color: #E50914;
+$dark-color: #141414;
 
 body {
   font-family: 'Arial', san-serif;
@@ -97,6 +98,50 @@ img {
   font-size: 1.9rem;
   line-height: 1.25;
   margin: 0 0 2rem;
+}
+
+// Tabs
+
+.tabs {
+  background: $dark-color;
+  padding-top: 1rem;
+  border-bottom: 3px solid #3d3d3d;
+}
+
+.tabs .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tabs p {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+}
+
+.tabs .container > div {
+  padding: 1.5rem 0;
+}
+
+.tabs .container > div:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.tab-border {
+  border-bottom: 4px solid $primary-color;
+}
+
+// Container
+
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
 }
 
 // Buttons
