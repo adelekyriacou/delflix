@@ -51,6 +51,11 @@ img {
   box-shadow: inset 90px 90px 250px #000, inset -90px -90px 250px #000;
 }
 
+.showcase a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 .showcase-top {
   position: relative;
   z-index: 2;
